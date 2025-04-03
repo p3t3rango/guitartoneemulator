@@ -55,4 +55,12 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps 
+_deps
+
+# Test audio files
+Test/Test/*.wav
+
+# Sensitive configuration files
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase-config.json 
